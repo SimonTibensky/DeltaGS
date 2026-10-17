@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>DeltaGS</title>
+  <style>
+    :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #6e6e73; --accent: #b3261e; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111113; --fg: #f2f2f4; --muted: #a1a1a6; --accent: #ff6b5e; }
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      background: var(--bg); color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      display: flex; align-items: center; justify-content: center; padding: 24px 16px; text-align: center;
+    }
+    main { max-width: 640px; }
+    h1 { font-size: clamp(2.4rem, 8vw, 3.6rem); margin: 0 0 12px; color: var(--accent); letter-spacing: -0.02em; }
+    .status { font-size: 1.15rem; margin: 0 0 28px; }
+    .authors { margin: 0 0 6px; }
+    .affiliation { color: var(--muted); font-size: 0.95rem; margin: 0; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>DeltaGS</h1>
+    <p class="status">Paper under review. The project page, videos, and code will be released upon publication.</p>
+    <p class="authors">Šimon Tibenský, Marek Vančo, Gregor Rozinaj, Radoslav Vargic</p>
+    <p class="affiliation">Institute of Multimedia Information and Communication Technologies<br>
+      Faculty of Electrical Engineering and Information Technology<br>
+      Slovak University of Technology in Bratislava</p>
+  </main>
+</body>
+</html>
